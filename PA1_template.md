@@ -61,7 +61,7 @@ intervals.
         xlab("5-minute interval") +
         ylab("average number of steps taken")
 
-![](PA1_template_files/figure-markdown_strict/plot_2-1.png)
+![alt text](https://github.com/jacksontorreseconomista/reproducible_research_project_1/blob/master/plot_2-1.png?raw=true)
 
 From the manipulation of the data, the result was the average of the
 maximum number of steps in each day in the interval of 5 minutes.
@@ -109,7 +109,7 @@ approximated to the results without considering the missing values.
          main = "Total number of steps taken each day (filled data)",
          xlab = "Number of steps per day")
 
-![](PA1_template_files/figure-markdown_strict/plot_3-1.png)
+![alt text](https://github.com/jacksontorreseconomista/reproducible_research_project_1/blob/master/plot_3-1.png?raw=true)
 
     mean(total.steps)
 
@@ -145,4 +145,4 @@ separately.
     ggplot(averages, aes(interval, steps)) + geom_line() + facet_grid(day ~ .) +
         xlab("5-minute interval") + ylab("Number of steps")
 
-![](PA1_template_files/figure-markdown_strict/plot_4-1.png)
+![alt text](https://github.com/jacksontorreseconomista/reproducible_research_project_1/blob/master/plot_4-1.png?raw=true)
