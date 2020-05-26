@@ -30,7 +30,7 @@ performed and then a histogram was generated.
          main = "Total number of steps taken each day",
          xlab = "Number of steps per day")
 
-![](PA1_template_files/figure-markdown_strict/histogram-1.png)
+![](PA1_template_files/figure-markdown_strict/plot_1-1.png)
 
 From this manipulation, the mean and median mean of the total number of
 steps per day were calculated.
@@ -61,7 +61,7 @@ intervals.
         xlab("5-minute interval") +
         ylab("average number of steps taken")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+![](PA1_template_files/figure-markdown_strict/plot_2-1.png)
 
 From the manipulation of the data, the result was the average of the
 maximum number of steps in each day in the interval of 5 minutes.
@@ -109,7 +109,7 @@ approximated to the results without considering the missing values.
          main = "Total number of steps taken each day (filled data)",
          xlab = "Number of steps per day")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-7-1.png)
+![](PA1_template_files/figure-markdown_strict/plot_3-1.png)
 
     mean(total.steps)
 
@@ -145,4 +145,4 @@ separately.
     ggplot(averages, aes(interval, steps)) + geom_line() + facet_grid(day ~ .) +
         xlab("5-minute interval") + ylab("Number of steps")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+![](PA1_template_files/figure-markdown_strict/plot_4-1.png)
