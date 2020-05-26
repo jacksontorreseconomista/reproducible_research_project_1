@@ -30,7 +30,7 @@ performed and then a histogram was generated.
          main = "Total number of steps taken each day",
          xlab = "Number of steps per day")
 
-![](PA1_template_files/figure-markdown_strict/plot_1-1.png)
+https://github.com/jacksontorreseconomista/reproducible_research_project_1/blob/master/plot_1-1.png?raw=true
 
 From this manipulation, the mean and median mean of the total number of
 steps per day were calculated.
